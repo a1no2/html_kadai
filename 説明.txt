@@ -1,0 +1,52 @@
+﻿サイト全体の説明
+観光地紹介のサイト。文書などは他サイトから丸パクリしたもの。
+
+-------------------------------------------------
+
+ページ説明
+index.php	TOPぺージ。サイトの説明と、軽い自己紹介。
+ukyo.php	右京区の説明ページ。
+tourism.php	観光地の一覧が表示してるページ。listの更新は手動でlist.phpに行う。
+list.php	観光地の一覧が書いてあるページ。tourim.phpにインクルード。
+contact.php	問い合わせページ。
+
+
+header_footer_sidebarファイル
+それぞれheader、footer、sidebarが定義してある。
+編集する際はこれらのファイルを編集する。
+ヘッダーフッターは全ページに表示（インクルード）。
+サイドバーは、観光ページのみ表示（インクルード）。
+
+
+ここから観光のページ　画像はポップアップ機能実装
+togetukyo.php	渡月橋の説明。
+randen.php	嵐電の説明。
+ookotisansou.pho大河内山荘 庭園の説明。
+
+	
+
+-------------------------------------------------
+
+パクったサイト
+
+右京区ロゴ
+http://www.special-sauce.com/works/logo/16.html
+
+渡月橋
+https://ja.wikipedia.org/wiki/渡月橋
+http://www.jalan.net/kankou/spt_guide000000150129/
+
+嵐電
+https://ja.wikipedia.org/wiki/京福電気鉄道嵐山本線
+https://matome.naver.jp/odai/2136988805566763301
+http://todo96chan96.blog.fc2.com/blog-entry-29.html
+http://getnavi.jp/vehicles/71864/
+http://blog.goo.ne.jp/gion-toru/e/4b9ceb793552755629a861d1ffc321d8
+
+大河内山荘 庭園
+https://ja.wikipedia.org/wiki/大河内山荘
+https://kanko.city.kyoto.lg.jp/detail.php?InforKindCode=1&ManageCode=4000001
+http://www.jalan.net/kankou/spt_26108cc3340044853/
+
+
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>KCG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div id='root'>
+    <div id='header'>
+		<h1 class="logo"><img src="img/KCG-logo.png" alt="KCG"></h1>
+		<p class="spmenu"><a href="javascript:void(0);">MENU</a></p>
+		<ul class="navi">
+			<li><a href="#about">KCGとは</a></li>
+			<li><a href="#departments">学科一覧</a></li>
+			<li><a href="#access">アクセス</a></li>
+			<li><a href="#requests">資料請求</a></li>
+		</ul>
+    </div>
+    
+    <div id='content'>
+    	
+    	<h2 id="about">KCGとは</h2>
+    	<h3>教育理念</h3>
+    	<ul>
+	    	<li>一、コンピュータ技術の学問的性格を重視し理論をおろそかにしない本格教育</li>
+			<li>一、コンピュータ技術の進歩発展に対応する教育</li>
+			<li>一、コンピュータ技術における創造的能力の養成</li>
+			<li>一、情報化社会における複眼視的思考力の養成</li>
+			<li>一、知性・感性ともにすぐれた人格の育成</li>
+		</ul>
+    	
+    	<h2 id="departments">学科一覧</h2>
+    	<ul>
+	    	<li>アート・デザイン学科</li>
+	    	<li>ビジネス学科</li>
+	    	<li>コンピュータサイエンス学科</li>
+	    	<li>デジタルゲーム学科</li>
+	    	<li>エンジニアリング学科</li>
+		</ul>
+    	
+    	<h2 id="access">アクセス</h2>
+    	<ul class="maplist">
+	    	<li>
+	    		京都駅前校
+	    		<p><img src="img/map_ekimae.png" alt="京都駅前校"></p>
+	    	</li>
+	    	<li>
+	    		デザインカレッジ（鴨川校）
+	    		<p><img src="img/map_kamogawa.png" alt="京都駅前校"></p>
+	    	</li>
+	    	<li>
+	    		テクニカルカレッジ（洛北校）
+	    		<p><img src="img/map_rakuhoku.png" alt="京都駅前校"></p>
+	    	</li>
+		</ul>
+    	
+    	
+    	<h2 id="requests">資料請求</h2>
+    	<form class="requests">
+    	<dl>
+    		<dt>名前</dt>
+    		<dd><input type="text" name="name" value="" placeholder="お名前を入力してください"></dd>
+    		<dt>メールアドレス</dt>
+    		<dd><input type="text" name="mail" value="" placeholder="メールアドレスを入力してください"></dd>
+    		<dt>本文</dt>
+    		<dd><textarea name="body"></textarea></dd>
+    	</dl>
+    	<input type="submit" value="送信">
+    	</form>
+    </div>
+    
+    <div id='footer'>
+    	<p class="copy">All contents copyright (C) Kyoto Computer Gakuin.</p>
+    </div>
+    
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/kcg.js"></script>
+
+</body>
+</html>

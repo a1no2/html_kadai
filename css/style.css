@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.copy {
+    text-decoration: line-through;
+    /* その辺に落ちている画像や文章を丸パクリしているので
+    コピーライトを打消し */
+}
+.link_div {
+    float: right !important;
+    padding: 5px 20px 0 0;
+}
+#main #list img{
+    max-width: 500px;
+}
+iframe　{
+    width: 90% !important;
+    height: 450px  !important;
+}
+
+
+
+/* 641px以上 */
+@media screen and (min-width:641px){
+    #header {
+        width: 100%;
+    }
+    #header .logo {
+        width: 200px;
+    }
+    #header .logo img {
+        width: 100%;
+    }
+    #header .spmenu {
+        display: none;
+    }
+    #header .navi {
+        list-style: none;
+    }
+    #header .navi li {
+        float: left;
+        width: 25%;
+    }
+    #header .navi li a {
+        display: block;
+        border: 1px solid #fff;
+        border-left: none;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        background: #ACD682;
+        color: #000;
+
+    }
+    #header .navi li:last-child a {
+        border-right: none;
+    }
+    #header .navi li a:hover {
+        opacity: 0.7;
+    }
+
+
+/* ここからTOP(index)ページ専用 */
+/* ここまでTOP(index)ページ専用 */
+
+
+/* ここからukyoページ専用 */
+
+    #content div#overview{
+        width: calc(100% - 300px);
+    }
+    #content div#overview_table {
+        width: 295px;
+        margin-left: 5px;
+    }
+    #overview_table table td:nth-of-type(1){
+        width: 80px;
+    }
+    #overview_table table {
+        margin-bottom: 10px;
+    }
+    #overview_table table td{
+        padding: 3px;
+    }
+/* ここまでukyoページ専用 */
+
+
+/* ここから観光地しょうかい専用 */
+    #tourism #content div {
+        float: left;
+    }
+    #tourism #sidebar{
+        width: 250px;
+        margin-left: 5px;
+    }
+    #tourism #sidebar ul{
+        list-style: none;
+    }
+    #tourism #main{
+        width: calc(100% - 255px);
+    }
+    #tourism table{
+        margin: 15px 0;
+    }
+    #tourism table td{
+        padding: 3px;
+    }
+
+    #tourism #list{
+        width: 100%;
+        list-style: none;
+        margin-left: 0;
+    }
+    #tourism #list li{
+        width: 95%;
+        height: 115px;
+        clear: both;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+        margin-bottom: 10px;
+        padding: 5px 0;
+    }
+    #tourism #list div{
+        float: left;
+    }
+    #tourism #list div:nth-child(1){
+        width: 150px;
+    }
+
+    #tourism #list div:nth-child(2){
+        width: calc( 95% - 150px);
+        margin-left: 15px;
+    }
+
+    #tourism #list div:nth-child(2) p{
+        padding-left: 0;
+    }
+    #tourism #list img {
+        vertical-align: top;
+    }
+    #tourism #list p{
+        display: inline;
+        margin-top: 15px;
+        padding-left: 0;
+        color: #000;
+    }
+
+/* ここまで観光地しょうかい専用 */
+
+
+    #content {
+        padding: 20px;
+        clear: both;
+
+    }
+    #content h3 {
+        border-left: 5px solid #000;
+        border-bottom: 1px solid #000;
+        padding: 5px 10px;
+        margin: 0 0 20px;
+        clear: both;
+    }
+    #content p{
+        padding-left: 1em;
+    }
+
+    #content ul {
+        margin: 0 0 80px 40px;
+    }
+
+    #content ul.maplist {
+        margin: 0 0 80px;
+        list-style: none;
+        overflow: hidden;
+    }
+    #content ul.maplist li {
+        float: left;
+        width:33.3%;
+        text-align: center;
+    }
+    #content ul.maplist li img {
+        margin: 5px 0 20px;
+        width: 95%;
+        max-width: 400px;
+
+    }
+
+    #content .requests {
+        border: 1px solid #000;
+        padding: 20px;
+        margin: 0 0 80px;
+    }
+    #content dl dt {
+        clear: left;
+        float: left;
+        width: 150px;
+        margin: 0 0 10px;
+    }
+    #content dl dd {
+        margin: 0 0 10px;
+
+    }
+    #content dl dd input, #content dl dd textarea {
+        width: calc(100% - 200px);
+        padding: 5px;
+
+    }
+    #content dl dd textarea {
+        height: 5em;
+    }
+    #content .requests input[type=submit] {
+		border:2px solid #000;
+		cursor: pointer;
+		padding: 10px 30px;
+		margin: 0 auto;
+		display: block;
+		border-radius: 10px;
+		font-size: 20px;
+		background: #ACD682;
+		color: #000;
+
+    }
+	#content .requests input[type=submit]:hover {
+		opacity: 0.7;
+    }
+
+
+    #footer {
+        clear : both;
+        text-align: center;
+        background: #ACD682;
+        color: #000;
+        padding: 10px;
+    }
+
+}
+
+/* 640px以下 */
+@media screen and (max-width:640px){
+	body {
+
+    }
+	#header {
+        position: relative;
+
+    }
+	#header .logo {
+        height: 115px;
+    }
+	#header .logo img {
+        height: 115px;
+    }
+	#header .spmenu {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+	#header .spmenu a {
+        display: block;
+        width: 50px;
+        background: #ACD682;
+        /*color:#f000*/
+        /*text-decoration: none;*/
+        padding: 15px 5px;
+        text-align: center;
+
+    }
+	#header .navi {
+        list-style: none;
+        display: none;
+        position: absolute;
+        top: 125px;
+        left: 0;
+        width: 100%;
+
+    }
+	#header .navi li {
+        margin: 0 0 1px;
+    }
+    #header .navi li a {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        background: #ACD682;
+        color: #000;
+
+    }
+
+    /* ここからukyo専用 */
+    #ukyo table {
+        margin-bottom: 10px;
+    }
+    #ukyo table td{
+        padding: 3px;
+    }
+    /* ここまでukyo専用 */
+
+
+    /* ここから観光地しょうかい専用 */
+    #tourism table{
+        margin: 15px 0;
+    }
+    #tourism table td{
+        padding: 3px;
+    }
+    #tourism #list{
+        width: 100%;
+        list-style: none;
+        margin-left: 0;
+    }
+    #tourism #list li{
+        width: 95%;
+        height: 115px;
+        clear: both;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+        margin-bottom: 10px;
+        padding: 5px 0;
+    }
+    #tourism #list div{
+        float: left;
+    }
+    #tourism #list img {
+        vertical-align: top;
+    }
+    #tourism #list p{
+        display: inline;
+        padding-left: 10px;
+    }
+    #tourism #list div:nth-child(1){
+        width: 150px;
+    }
+
+    #tourism #list div:nth-child(2){
+        width: calc( 95% - 150px);
+        margin-left: 15px;
+    }
+    #tourism #list div:nth-child(2) p{
+        padding-left: 0;
+        color: #000;
+    }
+    /* ここまで観光地しょうかい専用 */
+
+    #content {
+        margin: 10px;
+    }
+    #content h3 {
+        background: #ACD682;
+        color: #000;
+        padding: 5px 10px;
+        margin: 0 -10px 10px;
+    }
+    #content ul {
+        margin: 0 0 40px 1.5em;
+    }
+    #content ul li {
+        margin: 0 0 5px;
+    }
+
+    #content ul.maplist {
+        margin: 0 0 80px;
+        list-style: none;
+        overflow: hidden;
+    }
+    #content ul.maplist li {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #content ul.maplist li img {
+        margin: 5px 0 20px;
+        width: 100%;
+
+    }
+
+    #content .requests {
+        margin: 0 0 40px;
+    }
+    #content dl dt {
+
+    }
+    #content dl dd {
+        margin: 0 0 10px;
+
+    }
+    #content dl dd input, #content dl dd textarea {
+        width: 90%;
+        padding: 5px 2%;
+
+    }
+    #content dl dd textarea {
+        height: 5em;
+    }
+    #content .requests input[type=submit] {
+		border:2px solid #000;
+		cursor: pointer;
+		padding: 10px 40px;
+		margin: 0 auto;
+		display: block;
+		border-radius: 10px;
+		background: #ACD682;
+		color: #000;
+
+    }
+    #footer {
+        text-align: center;
+        background: #ACD682;
+        color: #000;
+        padding: 10px;
+    }
+    #footer span {
+        display: none;
+    }
+
+}
